@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-auto-rows: 150px 50px;
+            grid-auto-columns:   500px;
+            background-color: antiquewhite;
+        }
+        .item{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>The grid-auto-columns Property</h1>
+<p>Use the <em>grid-auto-columns</em> property to set a default size (width) for all columns.</p>
+<br>
+<hr>
+<h2>Grid-auto-rows used to defined the height of row... <br>
+    Here "grid-auto-rows: 150px 50px;" means height of each first row 150px and second row 50px
+</h2>
+<br>
+<h2>Similarly grid-auto-columns: 500px; means width of each columns is 500px
+</h2>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+    
+</body>
+</html>
